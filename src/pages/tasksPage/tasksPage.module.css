@@ -1,0 +1,21 @@
+.subContainer {
+    display: flex;
+    height: 719px;
+}
+*{
+    font-family: Manrope;
+}
+.window{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: auto;
+    width: 34%;
+    height: 150px;
+    background-color: #333333;
+    color: #e0e0e0;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 70px;  
+}

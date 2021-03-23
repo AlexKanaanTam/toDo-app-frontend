@@ -1,0 +1,45 @@
+.contentContainer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 75%;
+    height: 100%;
+    background-color: #4f4f4f;
+    min-width: 550px;
+}
+.subContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: auto;
+    width: 80%;
+    height: 630px;
+}
+.title{
+    height: 70px;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.0168em;
+}
+.counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15px;
+    margin: 10px 0;
+    color: #828282;
+}
+.todoTasks, .completedTasks{
+    height: 36%;
+    overflow-y: scroll;
+}
+.buttons{
+    align-self: flex-end;   
+}
+.todoTasks::-webkit-scrollbar, .completedTasks::-webkit-scrollbar {
+    display: none;
+  };
+  

@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 60px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: black;
+};

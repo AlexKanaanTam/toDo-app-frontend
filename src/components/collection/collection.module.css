@@ -1,0 +1,28 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    height: 198px;
+    width: 258px;
+    margin: 30px 45px;
+    background-color: #828282;
+    border-radius: 15px;
+    color: #333333;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.mainContainer:hover {
+    border: 2px solid #e0e0e0;
+ }
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: black;
+  };
+  

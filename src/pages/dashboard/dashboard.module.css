@@ -1,0 +1,13 @@
+.mainContainer {
+    background-color: #4f4f4f;
+    width: 100vw;
+}
+.background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cccccc;
+    color: #4f4f4f;
+    height: 91vh;
+}

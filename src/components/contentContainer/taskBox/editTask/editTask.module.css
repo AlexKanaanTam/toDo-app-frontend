@@ -1,0 +1,25 @@
+.modal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #e0e0e0;
+    border-radius: 15px;
+    background-color: rgba(61, 136, 197);
+    width: 0;
+    height: 60px;
+    position: absolute;
+    transition: 0.9s;
+    overflow: hidden;
+}
+.open{
+    width: 100%;
+}
+.input{
+    width: 70%;
+    height: 40px;
+    font-size: 15px;
+    background-color: #e0e0e0;
+}
+input:focus{
+    outline: none;
+}

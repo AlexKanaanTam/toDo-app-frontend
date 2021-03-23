@@ -1,0 +1,40 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    text-decoration: none;
+    
+}
+/* -------- Tabs section ----------- */
+.tabsContainer{
+    display: flex;
+}
+/* ----------- Search Bar Section --------------- */
+.searchUser{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    min-width: 350px;
+    max-width: 400px;
+    justify-content: space-between;
+}
+/* ----------- Search Bar --------------- */
+.searchBar{
+    border-radius: 15px;
+    background-color: #c4c4c4;
+    border: 0;
+    font-size: 15px;
+    margin-right: 10px;
+    height: 28px
+}
+.searchBarC{
+    position: relative;
+}
+.lens{
+    position: absolute;
+    right: 24px;
+    top: 3px;
+}

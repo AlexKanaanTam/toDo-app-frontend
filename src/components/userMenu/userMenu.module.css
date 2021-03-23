@@ -1,0 +1,14 @@
+.container{
+    height: 0%;
+    width: 50%;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: .9s;
+    min-width: 160px;
+}
+.open{
+    height: 120px;
+}
